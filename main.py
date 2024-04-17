@@ -1,7 +1,8 @@
 import json
 import logging
-import random
 import os
+import random
+
 import spotipy
 from flask import Flask
 from flask_apscheduler import APScheduler
