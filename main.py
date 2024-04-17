@@ -53,4 +53,4 @@ if __name__ == '__main__':
     scheduler.init_app(app)
     scheduler.start()
     app.logger.setLevel(logging.INFO)
-    app.run(host="44.226.145.213")
+    app.run(host="0.0.0.0")
